@@ -59,5 +59,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.RMX1911
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/realme/RMX1911/RMX1911-vendor.mk)
