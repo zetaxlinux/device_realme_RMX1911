@@ -17,8 +17,8 @@
 
 set -e
 
-export DEVICE=laurel_sprout
-export VENDOR=xiaomi
+export DEVICE=RMX1911
+export VENDOR=realme
 export DEVICE_COMMON=sm6125-common
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh "$@"

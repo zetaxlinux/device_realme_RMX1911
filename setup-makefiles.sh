@@ -17,8 +17,8 @@
 
 set -e
 
-export DEVICE=laurel_sprout
-export VENDOR=xiaomi
+export DEVICE=RMX1911
+export VENDOR=realme
 export DEVICE_BRINGUP_YEAR=2020
 export DEVICE_COMMON=sm6125-common
 

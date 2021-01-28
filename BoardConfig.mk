@@ -23,14 +23,14 @@
 #
 
 # Inherit from sm6125-common
--include device/xiaomi/sm6125-common/BoardConfigCommon.mk
+-include device/realme/sm6125-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/laurel_sprout
+DEVICE_PATH := device/realme/RMX1911
 
 BUILD_BROKEN_DUP_RULES := true
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1560
+TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
 # Display
@@ -40,14 +40,11 @@ TARGET_SCREEN_DENSITY := 320
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/laurel_sprout-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/r5x_defconfig
 
 # Partitions
-BOARD_METADATAIMAGE_PARTITION_SIZE := 16777216
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
-
-BOARD_USES_METADATA_PARTITION := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
@@ -59,4 +56,4 @@ VENDOR_SECURITY_PATCH := 2020-11-05
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
--include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
+-include vendor/realme/RMX1911/BoardConfigVendor.mk

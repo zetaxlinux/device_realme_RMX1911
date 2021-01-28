@@ -22,20 +22,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from laurel_sprout device
+# Inherit from RMX1911 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := laurel_sprout
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_laurel_sprout
-PRODUCT_MODEL := Mi A3
+PRODUCT_BRAND := Realme
+PRODUCT_DEVICE := RMX1911
+PRODUCT_MANUFACTURER := Realme
+PRODUCT_NAME := lineage_RMX1911
+PRODUCT_MODEL := Realme 5
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
-TARGET_VENDOR_PRODUCT_NAME := laurel_sprout
+TARGET_VENDOR_PRODUCT_NAME := RMX1911
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="laurel_sprout-user 10 QKQ1.190910.002 V11.0.23.0.QFQMIXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/laurel_sprout/laurel_sprout:10/QKQ1.190910.002/V11.0.23.0.QFQMIXM:user/release-keys
+BUILD_FINGERPRINT := trinket-user-10-QKQ1.200209.002--release-keys

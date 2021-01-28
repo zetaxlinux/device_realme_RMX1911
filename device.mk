@@ -22,17 +22,16 @@
 #
 
 # Inherit from sm6125-common
-$(call inherit-product, device/xiaomi/sm6125-common/common.mk)
+$(call inherit-product, device/realme/sm6125-common/common.mk)
 
-DEVICE_PATH := device/xiaomi/laurel_sprout
+DEVICE_PATH := device/realme/RMX1911
 
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/xiaomi
+    $(LOCAL_PATH)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -47,13 +46,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
-# Fingerprint feature
-PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
-
-PRODUCT_PACKAGES += \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_laurel_sprout
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
@@ -67,4 +59,4 @@ PRODUCT_PACKAGES += \
     fstab.qcom
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/laurel_sprout/laurel_sprout-vendor.mk)
+$(call inherit-product-if-exists, vendor/realme/RMX1911/RMX1911-vendor.mk)
