@@ -54,9 +54,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
-# Ramdisk
-PRODUCT_PACKAGES += \
-    fstab.qcom
-
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/realme/RMX1911/RMX1911-vendor.mk)
