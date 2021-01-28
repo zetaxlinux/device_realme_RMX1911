@@ -2735,3 +2735,11 @@ vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-nolimits.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine.conf
+
+# Touchscreen firmware
+vendor/firmware/tp/19631/ilitek_fw_xl_signed.bin
+vendor/firmware/tp/19631/nt_hlt_fw_mp.bin
+vendor/firmware/tp/19631/RA105A004.ini
+vendor/firmware/tp/19631/nt_hlt_fw.bin
+vendor/firmware/tp/19631/nt_hlt_fw_signed.bin
+vendor/firmware/tp/19631/RA105A0.bin
