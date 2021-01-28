@@ -2408,20 +2408,6 @@ vendor/etc/camera/sdm660_camera_india.xml
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 vendor/etc/camera/vidhance_calibration
 
-# Camera firmware
-vendor/firmware/cpp_firmware_v1_10_0.fw
-vendor/firmware/cpp_firmware_v1_12_0.fw
-vendor/firmware/cpp_firmware_v1_12_1.fw
-vendor/firmware/cpp_firmware_v1_1_1.fw
-vendor/firmware/cpp_firmware_v1_1_6.fw
-vendor/firmware/cpp_firmware_v1_2_0.fw
-vendor/firmware/cpp_firmware_v1_4_0.fw
-vendor/firmware/cpp_firmware_v1_5_0.fw
-vendor/firmware/cpp_firmware_v1_5_1.fw
-vendor/firmware/cpp_firmware_v1_5_2.fw
-vendor/firmware/cpp_firmware_v1_6_0.fw
-vendor/firmware/cpp_firmware_v1_8_0.fw
-
 # Camera interface
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmjpeg_interface.so
@@ -2687,44 +2673,6 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprintext@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
-# Graphics (Firmware)
-vendor/firmware/a225_pfp.fw
-vendor/firmware/a225_pm4.fw
-vendor/firmware/a225p5_pm4.fw
-vendor/firmware/a300_pfp.fw
-vendor/firmware/a300_pm4.fw
-vendor/firmware/a330_pfp.fw
-vendor/firmware/a330_pm4.fw
-vendor/firmware/a420_pfp.fw
-vendor/firmware/a420_pm4.fw
-vendor/firmware/a530_gpmu.fw2
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
-vendor/firmware/a530v1_pfp.fw
-vendor/firmware/a530v1_pm4.fw
-vendor/firmware/a530v2_seq.fw2
-vendor/firmware/a530v3_gpmu.fw2
-vendor/firmware/a530v3_seq.fw2
-vendor/firmware/a540_gpmu.fw2
-vendor/firmware/a610_zap.b00
-vendor/firmware/a610_zap.b01
-vendor/firmware/a610_zap.b02
-vendor/firmware/a610_zap.elf
-vendor/firmware/a610_zap.mdt
-vendor/firmware/a612_rgmu.bin
-vendor/firmware/a630_gmu.bin
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a640_gmu.bin
-
-# IPA
-vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
-vendor/firmware/ipa_fws.b02
-vendor/firmware/ipa_fws.b03
-vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.mdt
-vendor/firmware/ipa_fws.elf
-
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service
 vendor/bin/sensors.qti
@@ -2787,14 +2735,3 @@ vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-nolimits.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine.conf
-
-# Touchscreen firmware
-vendor/firmware/focaltech-ft3518-sumsung.ini
-vendor/firmware/gtx8_limits.csv
-vendor/firmware/leia_pfp_470.fw
-vendor/firmware/leia_pm4_470.fw
-vendor/firmware/sign_xiaomi/a610_zap.b00
-vendor/firmware/sign_xiaomi/a610_zap.b01
-vendor/firmware/sign_xiaomi/a610_zap.b02
-vendor/firmware/sign_xiaomi/a610_zap.elf
-vendor/firmware/sign_xiaomi/a610_zap.mdt
