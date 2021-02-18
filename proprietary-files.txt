@@ -2636,9 +2636,6 @@ vendor/lib/libmmcamera_laurus_sunny_imx586_eeprom.so
 vendor/lib/libmmcamera_laurus_sunny_s5k4h7_eeprom.so
 vendor/lib/libmmcamera_laurus_sunny_s5kgd1_eeprom.so
 
-# Consumerir
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.trinket.so
-
 # Display
 vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml
 vendor/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml
