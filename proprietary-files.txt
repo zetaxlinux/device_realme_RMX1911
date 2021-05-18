@@ -10,9 +10,6 @@ vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libtinycompress.so
 
-# ADSP modules (misound)
-vendor/lib/rfsa/adsp/misound_res.bin
-
 # Camera
 vendor/lib/hw/camera.trinket.so
 vendor/lib/libFaceGrade.so
