@@ -10,13 +10,6 @@ vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libtinycompress.so
 
-# Display
-vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml
-vendor/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml
-vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml
-
 # Thermal
 vendor/etc/thermal-engine-high.conf
 vendor/etc/thermal-engine-map.conf
