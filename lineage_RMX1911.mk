@@ -38,6 +38,6 @@ TARGET_VENDOR_DEVICE_NAME := RMX1911
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1911" \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1C.210205.006 7047959 release-keys"
+    PRIVATE_BUILD_DESC="unknown-user 10 QKQ1.200209.002 unknown release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1C.210205.006/7047959:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RQ2A.210505.002/7246365:user/release-keys
