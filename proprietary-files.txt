@@ -10,7 +10,6 @@ vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprintpay@1.0-service.rc
 vendor/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml
 vendor/lib/android.frameworks.faceservice@1.0.so
 vendor/lib/libalipay_factory.so
-vendor/lib/libhypnusclient.so
 vendor/lib/librpmbengclient.so
 vendor/lib/libstfaceunlockocl.so
 vendor/lib/vendor.oppo.hardware.biometrics.face@1.0.so
@@ -18,7 +17,6 @@ vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/android.frameworks.fingerprintservice@1.0.so
 vendor/lib64/libalipay_factory.so
-vendor/lib64/libhypnusclient.so
 vendor/lib64/librpmbengclient.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
@@ -37,6 +35,15 @@ vendor/firmware/f_1511.b05
 vendor/firmware/f_1511.b06
 vendor/firmware/f_1511.b07
 vendor/firmware/f_1511.mdt
+
+# Oppo (hypnus)
+vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service
+vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc
+vendor/lib/libhypnusclient.so
+vendor/lib/vendor.oppo.hardware.hypnus@1.0.so
+vendor/lib/hw/vendor.oppo.hardware.hypnus@1.0-impl.so
+vendor/lib64/libhypnusclient.so
+vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so
 
 # Thermal
 vendor/etc/thermal-engine-high.conf
