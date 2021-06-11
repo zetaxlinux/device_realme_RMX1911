@@ -10,7 +10,6 @@ vendor/lib64/android.frameworks.fingerprintservice@1.0.so
 vendor/lib64/librpmbengclient.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
-vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
