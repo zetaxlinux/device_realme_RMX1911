@@ -20,7 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+
+NAD_VERSION_BASE := EOL
+NAD_BUILD_CODENAME := FINAL
+NAD_BUILD_TYPE := UNOFFICIAL
+NAD_OTA_BRANCH := 10
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit from RMX1911 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +34,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1911
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := lineage_RMX1911
+PRODUCT_NAME := nad_RMX1911
 PRODUCT_MODEL := Realme 5
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
